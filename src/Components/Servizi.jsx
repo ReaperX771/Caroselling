@@ -22,7 +22,7 @@ function Servizi() {
   }, []);
 
   return (
-    <section ref={sectionRef}>
+    <section id='brand' ref={sectionRef}>
       <div className='border-t border-white/70 w-[90%] m-auto py-20 mb-10 mt-10'>
         <div className='xl:flex xl:flex-row xl:justify-between'>
           <div className='text-center xl:text-left mb-10 xl:mb-0'>
@@ -79,7 +79,7 @@ function Servizi() {
             {/* Copywriting */}
             <div
               className={`transition-all flex flex-col gap-5 duration-700 ease-out transform ${
-                inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-100'
+                inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               } delay-[500ms]`}
             >
               <h1 className='text-2xl text-white border-b-2 border-[#606060] w-fit'>
